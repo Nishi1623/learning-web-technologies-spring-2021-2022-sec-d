@@ -1,3 +1,22 @@
+<?php
+       
+       $nameError = "";
+       $username = "";
+    if(isset($_Request['submit']))
+    {
+        if($_Post['username']==null)
+
+          {
+             $nameError = "invalid username";
+        }
+    else {
+            $username = $_Request['username'];
+         }
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
